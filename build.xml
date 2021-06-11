@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<project name="project" default="junit">
+<project name="Calcultor" default="junit">
 
     <property name="run.classpath" value="bin"></property>
     <property name="run.srcpath" value="src"></property>
@@ -31,6 +31,9 @@
                classpathref="compile.path" includeAntRuntime="false"/>
         <javac destdir="${run.classpath}" srcdir="${test.srcpath}"
                classpathref="compile.path"/>
+    </target>
+	
+	<target name="test">
     </target>
 
     <target name="junit" depends="compile">
