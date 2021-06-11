@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="2" failures="2" hostname="DESKTOP-43I2GDP" id="0" name="CalculatorTest" package="" skipped="0" tests="7" time="5.086" timestamp="2021-06-10T12:44:10">
+      <properties>
+          <property name="sun.desktop" value="windows" />
+
+          <property name="ant.library.dir" value="D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="run.classpath" value="bin" />
+
+          <property name="java.specification.version" value="11" />
+
+          <property name="ant.project.name" value="project" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="java.class.path" value="D:\ProgramFiles\Jdk!\java.base;D:\ProgramFiles\Jdk!\java.compiler;D:\ProgramFiles\Jdk!\java.datatransfer;D:\ProgramFiles\Jdk!\java.desktop;D:\ProgramFiles\Jdk!\java.instrument;D:\ProgramFiles\Jdk!\java.logging;D:\ProgramFiles\Jdk!\java.management;D:\ProgramFiles\Jdk!\java.management.rmi;D:\ProgramFiles\Jdk!\java.naming;D:\ProgramFiles\Jdk!\java.net.http;D:\ProgramFiles\Jdk!\java.prefs;D:\ProgramFiles\Jdk!\java.rmi;D:\ProgramFiles\Jdk!\java.scripting;D:\ProgramFiles\Jdk!\java.se;D:\ProgramFiles\Jdk!\java.security.jgss;D:\ProgramFiles\Jdk!\java.security.sasl;D:\ProgramFiles\Jdk!\java.smartcardio;D:\ProgramFiles\Jdk!\java.sql;D:\ProgramFiles\Jdk!\java.sql.rowset;D:\ProgramFiles\Jdk!\java.transaction.xa;D:\ProgramFiles\Jdk!\java.xml;D:\ProgramFiles\Jdk!\java.xml.crypto;D:\ProgramFiles\Jdk!\jdk.accessibility;D:\ProgramFiles\Jdk!\jdk.aot;D:\ProgramFiles\Jdk!\jdk.attach;D:\ProgramFiles\Jdk!\jdk.charsets;D:\ProgramFiles\Jdk!\jdk.compiler;D:\ProgramFiles\Jdk!\jdk.crypto.cryptoki;D:\ProgramFiles\Jdk!\jdk.crypto.ec;D:\ProgramFiles\Jdk!\jdk.crypto.mscapi;D:\ProgramFiles\Jdk!\jdk.dynalink;D:\ProgramFiles\Jdk!\jdk.editpad;D:\ProgramFiles\Jdk!\jdk.hotspot.agent;D:\ProgramFiles\Jdk!\jdk.httpserver;D:\ProgramFiles\Jdk!\jdk.internal.ed;D:\ProgramFiles\Jdk!\jdk.internal.jvmstat;D:\ProgramFiles\Jdk!\jdk.internal.le;D:\ProgramFiles\Jdk!\jdk.internal.opt;D:\ProgramFiles\Jdk!\jdk.internal.vm.ci;D:\ProgramFiles\Jdk!\jdk.internal.vm.compiler;D:\ProgramFiles\Jdk!\jdk.internal.vm.compiler.management;D:\ProgramFiles\Jdk!\jdk.jartool;D:\ProgramFiles\Jdk!\jdk.javadoc;D:\ProgramFiles\Jdk!\jdk.jcmd;D:\ProgramFiles\Jdk!\jdk.jconsole;D:\ProgramFiles\Jdk!\jdk.jdeps;D:\ProgramFiles\Jdk!\jdk.jdi;D:\ProgramFiles\Jdk!\jdk.jdwp.agent;D:\ProgramFiles\Jdk!\jdk.jfr;D:\ProgramFiles\Jdk!\jdk.jlink;D:\ProgramFiles\Jdk!\jdk.jshell;D:\ProgramFiles\Jdk!\jdk.jsobject;D:\ProgramFiles\Jdk!\jdk.jstatd;D:\ProgramFiles\Jdk!\jdk.localedata;D:\ProgramFiles\Jdk!\jdk.management;D:\ProgramFiles\Jdk!\jdk.management.agent;D:\ProgramFiles\Jdk!\jdk.management.jfr;D:\ProgramFiles\Jdk!\jdk.naming.dns;D:\ProgramFiles\Jdk!\jdk.naming.ldap;D:\ProgramFiles\Jdk!\jdk.naming.rmi;D:\ProgramFiles\Jdk!\jdk.net;D:\ProgramFiles\Jdk!\jdk.pack;D:\ProgramFiles\Jdk!\jdk.rmic;D:\ProgramFiles\Jdk!\jdk.scripting.nashorn;D:\ProgramFiles\Jdk!\jdk.scripting.nashorn.shell;D:\ProgramFiles\Jdk!\jdk.sctp;D:\ProgramFiles\Jdk!\jdk.security.auth;D:\ProgramFiles\Jdk!\jdk.security.jgss;D:\ProgramFiles\Jdk!\jdk.unsupported;D:\ProgramFiles\Jdk!\jdk.unsupported.desktop;D:\ProgramFiles\Jdk!\jdk.xml.dom;D:\ProgramFiles\Jdk!\jdk.zipfs;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-antlr.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-apache-bcel.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-apache-bsf.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-apache-log4j.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-apache-oro.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-apache-regexp.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-apache-resolver.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-apache-xalan2.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-commons-logging.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-commons-net.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-jai.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-javamail.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-jdepend.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-jmf.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-jsch.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-junit.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-junit4.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-junitlauncher.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-launcher.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-netrexx.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-swing.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-testutil.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant-xz.jar;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant.jar;D:\ProgramFiles\Jdk\lib\classes.zip;D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="java.vendor.url" value="https://openjdk.java.net/" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="ant.file.type.project" value="file" />
+
+          <property name="java.vm.specification.version" value="11" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="test.report" value="report" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="sun.boot.library.path" value="D:\ProgramFiles\Jdk\bin" />
+
+          <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile D:\Files\Projects\Java\Algo\build.xml junit" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\TPB" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.version.date" value="2020-10-20" />
+
+          <property name="java.home" value="D:\ProgramFiles\Jdk" />
+
+          <property name="test.xml" value="xml" />
+
+          <property name="basedir" value="D:\Files\Projects\Java\Algo" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="ant.java.version" value="11" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="user.script" value="" />
+
+          <property name="run.srcpath" value="src" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.runtime.version" value="11.0.9+7-LTS" />
+
+          <property name="user.name" value="Jackie" />
+
+          <property name="ant.file" value="D:\Files\Projects\Java\Algo\build.xml" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ant.project.invoked-targets" value="junit" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="java.vendor.version" value="18.9" />
+
+          <property name="ant.core.lib" value="D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant\lib\ant.jar" />
+
+          <property name="ant.file.project" value="D:\Files\Projects\Java\Algo\build.xml" />
+
+          <property name="test.srcpath" value="test" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="java.io.tmpdir" value="C:\Users\TPB\AppData\Local\Temp\" />
+
+          <property name="java.version" value="11.0.9" />
+
+          <property name="user.dir" value="D:\Files\Projects\Java\Algo" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="ant.home" value="D:\ProgramFiles\JetBrains\IntelliJ IDEA 2019.3.3\lib\ant" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+
+          <property name="java.library.path" value="D:\ProgramFiles\Jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\ProgramFiles\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\ProgramFiles\Jdk\bin;D:\ProgramFiles\Android\android-sdk\tools;D:\ProgramFiles\Android\android-sdk\platform-tools;D:\ProgramFiles\Mysql\bin;D:\ProgramFiles\MinGW\bin;%GRADLE_HOME%\bin;D:\ProgramFiles\Python;D:\ProgramFiles\Python\Scripts;D:\ProgramFiles\Ant\bin;C:\Users\TPB\AppData\Local\Microsoft\WindowsApps;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.vm.version" value="11.0.9+7-LTS" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="java.class.version" value="55.0" />
+
+          <property name="ant.project.default-target" value="junit" />
+
+      </properties>
+
+      <testcase classname="CalculatorTest" name="divide" time="0.015">
+          <error message="/ by zero" type="java.lang.ArithmeticException">java.lang.ArithmeticException: / by zero
+	at Calculator.divide(Unknown Source)
+	at CalculatorTest.divide(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</error>
+
+      </testcase>
+
+      <testcase classname="CalculatorTest" name="square" time="0.0" />
+
+      <testcase classname="CalculatorTest" name="add" time="0.0" />
+
+      <testcase classname="CalculatorTest" name="clear" time="0.0" />
+
+      <testcase classname="CalculatorTest" name="substract" time="0.0">
+          <failure message="expected:&lt;0&gt; but was:&lt;-1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;0&gt; but was:&lt;-1&gt;
+	at CalculatorTest.substract(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+
+      </testcase>
+
+      <testcase classname="CalculatorTest" name="multiply" time="0.0">
+          <failure message="expected:&lt;0&gt; but was:&lt;-1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;0&gt; but was:&lt;-1&gt;
+	at CalculatorTest.multiply(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+
+      </testcase>
+
+      <testcase classname="CalculatorTest" name="squareRoot" time="5.024">
+          <error message="test timed out after 5000 milliseconds" type="org.junit.runners.model.TestTimedOutException">org.junit.runners.model.TestTimedOutException: test timed out after 5000 milliseconds
+	at Calculator.squareRoot(Unknown Source)
+	at CalculatorTest.squareRoot(Unknown Source)
+	at java.base@11.0.9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.9/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.9/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

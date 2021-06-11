@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<project name="project" default="junit">
+
+    <property name="run.classpath" value="bin"></property>
+    <property name="run.srcpath" value="src"></property>
+    <property name="test.srcpath" value="test"></property>
+    <property name="test.xml" value="xml"></property>
+    <property name="test.report" value="report"></property>
+    <property name="lib.dir" value="lib"/>
+
+    <path id="compile.path">
+        <fileset dir="${lib.dir}">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="init">
+        <delete dir="${test.srcpath}"/>
+        <mkdir dir="${test.srcpath}"/>
+        <delete dir="${run.classpath}"/>
+        <mkdir dir="${run.classpath}"/>
+        <delete dir="${test.report}"/>
+        <mkdir dir="${test.report}"/>
+        <delete dir="${test.xml}"/>
+        <mkdir dir="${test.xml}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac destdir="${run.classpath}" srcdir="${run.srcpath}"
+               classpathref="compile.path" includeAntRuntime="false"/>
+        <javac destdir="${run.classpath}" srcdir="${test.srcpath}"
+               classpathref="compile.path"/>
+    </target>
+
+    <target name="junit" depends="compile">
+        <junit printsummary="true">
+            <classpath >
+                <pathelement path="${run.classpath}"/>
+                <fileset dir="${lib.dir}">
+                    <include name="*.jar"/>
+                </fileset>
+            </classpath>
+<!--            <classpath location="lib/junit-4.10.jar" />-->
+<!--            <classpath location="lib/ant-junit.jar" />-->
+            <formatter type="xml"/>
+            <batchtest todir="${test.xml}">
+                <fileset dir="${run.classpath}">
+                    <include name="**/*Test.class"/>
+                </fileset>
+            </batchtest>
+            <formatter type="brief" usefile="false"/>  <!--如果没有设置formatter,将无法打印出详细的信息-->
+            <formatter type="plain" /><!--默认usefile为true,将会自动创建txt文件-->
+            <formatter type="xml" />
+        </junit>
+
+        <junitreport todir="${test.xml}">
+            <fileset dir="${test.xml}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${test.report}"/>
+        </junitreport>
+    </target>
+</project>
+

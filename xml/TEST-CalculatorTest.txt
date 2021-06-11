@@ -1,0 +1,68 @@
+Testsuite: CalculatorTest
+Tests run: 7, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 5.086 sec
+------------- Standard Output ---------------
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+BeforeClass
+tearDown
+------------- ---------------- ---------------
+
+Testcase: divide took 0.015 sec
+	Caused an ERROR
+/ by zero
+java.lang.ArithmeticException: / by zero
+	at Calculator.divide(Unknown Source)
+	at CalculatorTest.divide(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Testcase: square took 0 sec
+Testcase: add took 0 sec
+Testcase: clear took 0 sec
+Testcase: substract took 0 sec
+	FAILED
+expected:<0> but was:<-1>
+junit.framework.AssertionFailedError: expected:<0> but was:<-1>
+	at CalculatorTest.substract(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Testcase: multiply took 0 sec
+	FAILED
+expected:<0> but was:<-1>
+junit.framework.AssertionFailedError: expected:<0> but was:<-1>
+	at CalculatorTest.multiply(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Testcase: squareRoot took 5.024 sec
+	Caused an ERROR
+test timed out after 5000 milliseconds
+org.junit.runners.model.TestTimedOutException: test timed out after 5000 milliseconds
+	at Calculator.squareRoot(Unknown Source)
+	at CalculatorTest.squareRoot(Unknown Source)
+	at java.base@11.0.9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.9/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.9/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+
